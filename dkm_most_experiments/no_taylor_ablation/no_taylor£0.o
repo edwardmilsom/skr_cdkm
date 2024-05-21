@@ -1,0 +1,162 @@
+cpu-bind=MASK - bp1-gpu031, task  0  0 [61023]: mask 0x1000000000000000100000000 set
+dataset: CIFAR10
+dtype: float32
+dof: 0.001
+init_lr: 0.01
+seed: 0
+bn_indnorm: global
+bn_tnorm: global
+bn_indscale: global
+bn_tscale: global
+final_layer: BFC
+likelihood: categorical
+n_ind_scale: 32
+Files already downloaded and verified
+Files already downloaded and verified
+x_ind shape: torch.Size([512, 3, 3, 3])
+Inducing inputs learned: True
+Model in CUDA: True
+('Epoch 0', 'Objective: -1.9933578872680664', 'Train Acc: 0.2442599982023239', 'Test Acc: 0.31380000710487366', 'Train LL: -1.904771089553833', 'Test LL: -1.7293570041656494', 'Epoch Time (s): 266.330500961747')
+('Epoch 1', 'Objective: -1.613790150604248', 'Train Acc: 0.41839998960494995', 'Test Acc: 0.4771000146865845', 'Train LL: -1.552090048789978', 'Test LL: -1.4327757358551025', 'Epoch Time (s): 266.26928527094424')
+('Epoch 2', 'Objective: -1.3587429517745973', 'Train Acc: 0.5293999910354614', 'Test Acc: 0.5382000207901001', 'Train LL: -1.296140432357788', 'Test LL: -1.2883144617080688', 'Epoch Time (s): 266.1921830577776')
+('Epoch 3', 'Objective: -1.192214736480713', 'Train Acc: 0.594539999961853', 'Test Acc: 0.6118000149726868', 'Train LL: -1.1302341222763062', 'Test LL: -1.1079473495483398', 'Epoch Time (s): 266.1356628271751')
+('Epoch 4', 'Objective: -1.0637690446472168', 'Train Acc: 0.6481000185012817', 'Test Acc: 0.678600013256073', 'Train LL: -1.0021694898605347', 'Test LL: -0.9254295825958252', 'Epoch Time (s): 266.21236876025796')
+('Epoch 5', 'Objective: -0.9723382138824462', 'Train Acc: 0.6790000200271606', 'Test Acc: 0.6794000267982483', 'Train LL: -0.9133812785148621', 'Test LL: -0.905515730381012', 'Epoch Time (s): 266.18604778684676')
+('Epoch 6', 'Objective: -0.898485230140686', 'Train Acc: 0.708899974822998', 'Test Acc: 0.7401000261306763', 'Train LL: -0.8433557748794556', 'Test LL: -0.7508581280708313', 'Epoch Time (s): 266.25056268880144')
+('Epoch 7', 'Objective: -0.8448100135040283', 'Train Acc: 0.7257999777793884', 'Test Acc: 0.7360000014305115', 'Train LL: -0.7929540872573853', 'Test LL: -0.7878335118293762', 'Epoch Time (s): 266.2128656520508')
+('Epoch 8', 'Objective: -0.8028996879577637', 'Train Acc: 0.7401800155639648', 'Test Acc: 0.7768999934196472', 'Train LL: -0.754360556602478', 'Test LL: -0.6440190672874451', 'Epoch Time (s): 266.1433090358041')
+('Epoch 9', 'Objective: -0.7634112809753418', 'Train Acc: 0.7517200112342834', 'Test Acc: 0.7470999956130981', 'Train LL: -0.7171802520751953', 'Test LL: -0.7097173929214478', 'Epoch Time (s): 266.2162898508832')
+('Epoch 10', 'Objective: -0.7354371965026856', 'Train Acc: 0.7624199986457825', 'Test Acc: 0.7843000292778015', 'Train LL: -0.6916002631187439', 'Test LL: -0.6241607666015625', 'Epoch Time (s): 266.1021022987552')
+('Epoch 11', 'Objective: -0.7093315646743774', 'Train Acc: 0.7700600028038025', 'Test Acc: 0.7815999984741211', 'Train LL: -0.6670820116996765', 'Test LL: -0.6341491341590881', 'Epoch Time (s): 266.13596529792994')
+('Epoch 12', 'Objective: -0.6887766299819946', 'Train Acc: 0.7785800099372864', 'Test Acc: 0.781000018119812', 'Train LL: -0.6479288935661316', 'Test LL: -0.635284960269928', 'Epoch Time (s): 266.216641406063')
+('Epoch 13', 'Objective: -0.669872183971405', 'Train Acc: 0.783240020275116', 'Test Acc: 0.7835000157356262', 'Train LL: -0.6304705142974854', 'Test LL: -0.6324306726455688', 'Epoch Time (s): 266.1420769360848')
+('Epoch 14', 'Objective: -0.6484408687210083', 'Train Acc: 0.7904199957847595', 'Test Acc: 0.8055999875068665', 'Train LL: -0.6102397441864014', 'Test LL: -0.5691667795181274', 'Epoch Time (s): 266.21160814212635')
+('Epoch 15', 'Objective: -0.6329638945007324', 'Train Acc: 0.7967000007629395', 'Test Acc: 0.8108999729156494', 'Train LL: -0.5957774519920349', 'Test LL: -0.5341888070106506', 'Epoch Time (s): 266.1477127689868')
+('Epoch 16', 'Objective: -0.6233349592208862', 'Train Acc: 0.7993599772453308', 'Test Acc: 0.7932000160217285', 'Train LL: -0.5873052477836609', 'Test LL: -0.5906860828399658', 'Epoch Time (s): 266.24686000915244')
+('Epoch 17', 'Objective: -0.6047584352684021', 'Train Acc: 0.8053399920463562', 'Test Acc: 0.8090999722480774', 'Train LL: -0.569665253162384', 'Test LL: -0.5571382641792297', 'Epoch Time (s): 266.0982637661509')
+('Epoch 18', 'Objective: -0.5913278046607972', 'Train Acc: 0.8076000213623047', 'Test Acc: 0.8062000274658203', 'Train LL: -0.5572206377983093', 'Test LL: -0.5738126635551453', 'Epoch Time (s): 266.1748498887755')
+('Epoch 19', 'Objective: -0.5749784747505188', 'Train Acc: 0.8146399855613708', 'Test Acc: 0.814300000667572', 'Train LL: -0.5417229533195496', 'Test LL: -0.5222190022468567', 'Epoch Time (s): 266.1707360902801')
+('Epoch 20', 'Objective: -0.5647546739959717', 'Train Acc: 0.816860020160675', 'Test Acc: 0.824999988079071', 'Train LL: -0.5320457220077515', 'Test LL: -0.5101662874221802', 'Epoch Time (s): 266.1077857990749')
+('Epoch 21', 'Objective: -0.5592828629112243', 'Train Acc: 0.8211600184440613', 'Test Acc: 0.8384000062942505', 'Train LL: -0.5275278687477112', 'Test LL: -0.48199838399887085', 'Epoch Time (s): 266.1676816008985')
+('Epoch 22', 'Objective: -0.5439781936454773', 'Train Acc: 0.8246600031852722', 'Test Acc: 0.8325999975204468', 'Train LL: -0.5126284956932068', 'Test LL: -0.495129257440567', 'Epoch Time (s): 266.09818704333156')
+('Epoch 23', 'Objective: -0.5365932765769958', 'Train Acc: 0.8281599879264832', 'Test Acc: 0.8195000290870667', 'Train LL: -0.5059767365455627', 'Test LL: -0.5382083654403687', 'Epoch Time (s): 265.93277649302036')
+('Epoch 24', 'Objective: -0.525820705947876', 'Train Acc: 0.8303999900817871', 'Test Acc: 0.8199999928474426', 'Train LL: -0.49546292424201965', 'Test LL: -0.5158896446228027', 'Epoch Time (s): 265.9636669717729')
+('Epoch 25', 'Objective: -0.5191429754161835', 'Train Acc: 0.8328800201416016', 'Test Acc: 0.8378000259399414', 'Train LL: -0.489329069852829', 'Test LL: -0.478137731552124', 'Epoch Time (s): 265.940132740885')
+('Epoch 26', 'Objective: -0.5121542059421539', 'Train Acc: 0.8351399898529053', 'Test Acc: 0.8449000120162964', 'Train LL: -0.48280903697013855', 'Test LL: -0.45855313539505005', 'Epoch Time (s): 265.8680547820404')
+('Epoch 27', 'Objective: -0.5015467484855651', 'Train Acc: 0.8387399911880493', 'Test Acc: 0.8378999829292297', 'Train LL: -0.4720838963985443', 'Test LL: -0.4596240818500519', 'Epoch Time (s): 265.80287358071655')
+('Epoch 28', 'Objective: -0.49476043982505796', 'Train Acc: 0.8408399820327759', 'Test Acc: 0.8503999710083008', 'Train LL: -0.4661433696746826', 'Test LL: -0.4410882890224457', 'Epoch Time (s): 265.8706966028549')
+('Epoch 29', 'Objective: -0.48911016172409055', 'Train Acc: 0.8427600264549255', 'Test Acc: 0.8421000242233276', 'Train LL: -0.4604930579662323', 'Test LL: -0.45891034603118896', 'Epoch Time (s): 265.8860154291615')
+('Epoch 30', 'Objective: -0.4827750992012024', 'Train Acc: 0.8443800210952759', 'Test Acc: 0.8468999862670898', 'Train LL: -0.45427295565605164', 'Test LL: -0.4604739248752594', 'Epoch Time (s): 265.8637715871446')
+('Epoch 31', 'Objective: -0.4775483629989624', 'Train Acc: 0.8451399803161621', 'Test Acc: 0.8615999817848206', 'Train LL: -0.44957512617111206', 'Test LL: -0.41733646392822266', 'Epoch Time (s): 265.83637740509585')
+('Epoch 32', 'Objective: -0.46411814977645877', 'Train Acc: 0.8525000214576721', 'Test Acc: 0.8507000207901001', 'Train LL: -0.4363690912723541', 'Test LL: -0.44132906198501587', 'Epoch Time (s): 265.8935096580535')
+('Epoch 33', 'Objective: -0.460876329870224', 'Train Acc: 0.8523600101470947', 'Test Acc: 0.862500011920929', 'Train LL: -0.4332710802555084', 'Test LL: -0.40898382663726807', 'Epoch Time (s): 265.9387667607516')
+('Epoch 34', 'Objective: -0.4572417749977112', 'Train Acc: 0.8535599708557129', 'Test Acc: 0.8651000261306763', 'Train LL: -0.42988136410713196', 'Test LL: -0.4011755883693695', 'Epoch Time (s): 265.91357919899747')
+('Epoch 35', 'Objective: -0.44976636722564695', 'Train Acc: 0.8558599948883057', 'Test Acc: 0.8551999926567078', 'Train LL: -0.4228069484233856', 'Test LL: -0.4236307144165039', 'Epoch Time (s): 265.9472476937808')
+('Epoch 36', 'Objective: -0.44025755241394043', 'Train Acc: 0.8584799766540527', 'Test Acc: 0.8583999872207642', 'Train LL: -0.4135177731513977', 'Test LL: -0.4176298975944519', 'Epoch Time (s): 265.9597227452323')
+('Epoch 37', 'Objective: -0.4323936277389526', 'Train Acc: 0.8620799779891968', 'Test Acc: 0.8636999726295471', 'Train LL: -0.40610048174858093', 'Test LL: -0.4084070920944214', 'Epoch Time (s): 265.9470227858983')
+('Epoch 38', 'Objective: -0.43482707191467285', 'Train Acc: 0.8603799939155579', 'Test Acc: 0.8652999997138977', 'Train LL: -0.40855738520622253', 'Test LL: -0.40419337153434753', 'Epoch Time (s): 265.8857492469251')
+('Epoch 39', 'Objective: -0.4303219916725159', 'Train Acc: 0.861739993095398', 'Test Acc: 0.8682000041007996', 'Train LL: -0.40420106053352356', 'Test LL: -0.3881397843360901', 'Epoch Time (s): 266.0100073996')
+('Epoch 40', 'Objective: -0.4187666848564148', 'Train Acc: 0.8651000261306763', 'Test Acc: 0.8677999973297119', 'Train LL: -0.3929019570350647', 'Test LL: -0.3940809667110443', 'Epoch Time (s): 265.9373202440329')
+('Epoch 41', 'Objective: -0.41615043394088747', 'Train Acc: 0.8670200109481812', 'Test Acc: 0.8711000084877014', 'Train LL: -0.3903677463531494', 'Test LL: -0.3793608844280243', 'Epoch Time (s): 265.8849115218036')
+('Epoch 42', 'Objective: -0.41437012643814086', 'Train Acc: 0.8670600056648254', 'Test Acc: 0.8730999827384949', 'Train LL: -0.3886999189853668', 'Test LL: -0.38435685634613037', 'Epoch Time (s): 265.97867030091584')
+('Epoch 43', 'Objective: -0.4093779326057434', 'Train Acc: 0.8683199882507324', 'Test Acc: 0.8582000136375427', 'Train LL: -0.38405919075012207', 'Test LL: -0.4120689034461975', 'Epoch Time (s): 265.98947499878705')
+('Epoch 44', 'Objective: -0.40615477583885196', 'Train Acc: 0.8691800236701965', 'Test Acc: 0.8639000058174133', 'Train LL: -0.38095733523368835', 'Test LL: -0.3971785008907318', 'Epoch Time (s): 265.93419722886756')
+('Epoch 45', 'Objective: -0.40138499158859253', 'Train Acc: 0.8710399866104126', 'Test Acc: 0.8716999888420105', 'Train LL: -0.37632206082344055', 'Test LL: -0.3793220520019531', 'Epoch Time (s): 266.0491796550341')
+('Epoch 46', 'Objective: -0.3987824338722229', 'Train Acc: 0.8701599836349487', 'Test Acc: 0.8773999810218811', 'Train LL: -0.37389883399009705', 'Test LL: -0.3587055802345276', 'Epoch Time (s): 265.9302609069273')
+('Epoch 47', 'Objective: -0.39359449608802793', 'Train Acc: 0.8727999925613403', 'Test Acc: 0.8707000017166138', 'Train LL: -0.3687589466571808', 'Test LL: -0.3740358352661133', 'Epoch Time (s): 265.925808748696')
+('Epoch 48', 'Objective: -0.3848913332271576', 'Train Acc: 0.8751000165939331', 'Test Acc: 0.8708000183105469', 'Train LL: -0.36012113094329834', 'Test LL: -0.38306868076324463', 'Epoch Time (s): 266.06379324104637')
+('Epoch 49', 'Objective: -0.38538708404541017', 'Train Acc: 0.8757799863815308', 'Test Acc: 0.8702999949455261', 'Train LL: -0.3610370457172394', 'Test LL: -0.3798627555370331', 'Epoch Time (s): 265.91918955091387')
+('Epoch 50', 'Objective: -0.3821419060516357', 'Train Acc: 0.8771799802780151', 'Test Acc: 0.8801000118255615', 'Train LL: -0.35786640644073486', 'Test LL: -0.3535911738872528', 'Epoch Time (s): 265.9737391876988')
+('Epoch 51', 'Objective: -0.37524678924560545', 'Train Acc: 0.878000020980835', 'Test Acc: 0.8791999816894531', 'Train LL: -0.350982666015625', 'Test LL: -0.35777977108955383', 'Epoch Time (s): 265.965176244732')
+('Epoch 52', 'Objective: -0.3729670655632019', 'Train Acc: 0.8795599937438965', 'Test Acc: 0.8651999831199646', 'Train LL: -0.34889405965805054', 'Test LL: -0.40363162755966187', 'Epoch Time (s): 265.93107729405165')
+('Epoch 53', 'Objective: -0.36935134429931643', 'Train Acc: 0.8796799778938293', 'Test Acc: 0.8744000196456909', 'Train LL: -0.34530264139175415', 'Test LL: -0.36954599618911743', 'Epoch Time (s): 265.97331648832187')
+('Epoch 54', 'Objective: -0.3681567979621887', 'Train Acc: 0.8820400238037109', 'Test Acc: 0.8754000067710876', 'Train LL: -0.3444175720214844', 'Test LL: -0.37190911173820496', 'Epoch Time (s): 266.01100728381425')
+('Epoch 55', 'Objective: -0.3699130520057678', 'Train Acc: 0.8827199935913086', 'Test Acc: 0.8833000063896179', 'Train LL: -0.3463982045650482', 'Test LL: -0.3423556983470917', 'Epoch Time (s): 265.915472982917')
+('Epoch 56', 'Objective: -0.3573114464187622', 'Train Acc: 0.8858399987220764', 'Test Acc: 0.8755000233650208', 'Train LL: -0.3338419497013092', 'Test LL: -0.36843329668045044', 'Epoch Time (s): 265.9897253490053')
+('Epoch 57', 'Objective: -0.359952689704895', 'Train Acc: 0.8845999836921692', 'Test Acc: 0.8769000172615051', 'Train LL: -0.3366434872150421', 'Test LL: -0.3529852330684662', 'Epoch Time (s): 266.01113055832684')
+('Epoch 58', 'Objective: -0.35534415714263917', 'Train Acc: 0.885200023651123', 'Test Acc: 0.8777999877929688', 'Train LL: -0.3320772647857666', 'Test LL: -0.35821533203125', 'Epoch Time (s): 265.92640187079087')
+('Epoch 59', 'Objective: -0.3489974140024185', 'Train Acc: 0.8877800107002258', 'Test Acc: 0.8787000179290771', 'Train LL: -0.3259643316268921', 'Test LL: -0.36397889256477356', 'Epoch Time (s): 265.96285737585276')
+('Epoch 60', 'Objective: -0.3456730024242401', 'Train Acc: 0.8894199728965759', 'Test Acc: 0.8880000114440918', 'Train LL: -0.32282960414886475', 'Test LL: -0.3313751518726349', 'Epoch Time (s): 265.99708489794284')
+('Epoch 61', 'Objective: -0.34227636606216433', 'Train Acc: 0.8906400203704834', 'Test Acc: 0.8881999850273132', 'Train LL: -0.31943899393081665', 'Test LL: -0.3371191620826721', 'Epoch Time (s): 265.931348268874')
+('Epoch 62', 'Objective: -0.3417866209220886', 'Train Acc: 0.8901799917221069', 'Test Acc: 0.8885999917984009', 'Train LL: -0.31891560554504395', 'Test LL: -0.3270934522151947', 'Epoch Time (s): 266.0532295149751')
+('Epoch 63', 'Objective: -0.3380194165325165', 'Train Acc: 0.8916199803352356', 'Test Acc: 0.8866000175476074', 'Train LL: -0.3153078258037567', 'Test LL: -0.3441172242164612', 'Epoch Time (s): 266.0084876399487')
+('Epoch 64', 'Objective: -0.3411306645679474', 'Train Acc: 0.8901600241661072', 'Test Acc: 0.888700008392334', 'Train LL: -0.3185541033744812', 'Test LL: -0.3328709602355957', 'Epoch Time (s): 265.9055849914439')
+('Epoch 65', 'Objective: -0.3299548986530304', 'Train Acc: 0.8942199945449829', 'Test Acc: 0.8931999802589417', 'Train LL: -0.30736181139945984', 'Test LL: -0.3202795088291168', 'Epoch Time (s): 265.93612158996984')
+('Epoch 66', 'Objective: -0.32767064421653747', 'Train Acc: 0.895579993724823', 'Test Acc: 0.8873999714851379', 'Train LL: -0.3053446412086487', 'Test LL: -0.3306593894958496', 'Epoch Time (s): 265.98352867597714')
+('Epoch 67', 'Objective: -0.32926634343147276', 'Train Acc: 0.893779993057251', 'Test Acc: 0.8833000063896179', 'Train LL: -0.3068472743034363', 'Test LL: -0.3434228003025055', 'Epoch Time (s): 265.9727073777467')
+('Epoch 68', 'Objective: -0.32374614692687986', 'Train Acc: 0.8962399959564209', 'Test Acc: 0.8944000005722046', 'Train LL: -0.3016759753227234', 'Test LL: -0.3177192211151123', 'Epoch Time (s): 266.035743445158')
+('Epoch 69', 'Objective: -0.32562892210006716', 'Train Acc: 0.894540011882782', 'Test Acc: 0.8901000022888184', 'Train LL: -0.3035517632961273', 'Test LL: -0.3304230570793152', 'Epoch Time (s): 265.94306696625426')
+('Epoch 70', 'Objective: -0.3221208920001984', 'Train Acc: 0.8964400291442871', 'Test Acc: 0.8966000080108643', 'Train LL: -0.3002493381500244', 'Test LL: -0.30931106209754944', 'Epoch Time (s): 266.01425750227645')
+('Epoch 71', 'Objective: -0.3203139165878296', 'Train Acc: 0.8972600102424622', 'Test Acc: 0.890999972820282', 'Train LL: -0.29840120673179626', 'Test LL: -0.3196403682231903', 'Epoch Time (s): 265.9567070310004')
+('Epoch 72', 'Objective: -0.3140163093757629', 'Train Acc: 0.8992400169372559', 'Test Acc: 0.8827999830245972', 'Train LL: -0.2922215759754181', 'Test LL: -0.34992972016334534', 'Epoch Time (s): 265.8867359291762')
+('Epoch 73', 'Objective: -0.31483945614814757', 'Train Acc: 0.8995400071144104', 'Test Acc: 0.8885999917984009', 'Train LL: -0.2930983901023865', 'Test LL: -0.3354470729827881', 'Epoch Time (s): 265.9619648917578')
+('Epoch 74', 'Objective: -0.31432625356674193', 'Train Acc: 0.9002799987792969', 'Test Acc: 0.8892999887466431', 'Train LL: -0.2926795184612274', 'Test LL: -0.3220248818397522', 'Epoch Time (s): 266.0852409605868')
+('Epoch 75', 'Objective: -0.3095390045261383', 'Train Acc: 0.9002000093460083', 'Test Acc: 0.8920000195503235', 'Train LL: -0.28795912861824036', 'Test LL: -0.32418540120124817', 'Epoch Time (s): 265.9347136178985')
+('Epoch 76', 'Objective: -0.30462014358520506', 'Train Acc: 0.902400016784668', 'Test Acc: 0.8876000046730042', 'Train LL: -0.28309762477874756', 'Test LL: -0.34316495060920715', 'Epoch Time (s): 266.042684127111')
+('Epoch 77', 'Objective: -0.3048884581756592', 'Train Acc: 0.9022799730300903', 'Test Acc: 0.892799973487854', 'Train LL: -0.28363439440727234', 'Test LL: -0.3212392330169678', 'Epoch Time (s): 265.9924110057764')
+('Epoch 78', 'Objective: -0.3046113022518158', 'Train Acc: 0.9025800228118896', 'Test Acc: 0.8894000053405762', 'Train LL: -0.2834664285182953', 'Test LL: -0.32305511832237244', 'Epoch Time (s): 265.9140413510613')
+('Epoch 79', 'Objective: -0.3010994772529602', 'Train Acc: 0.9034000039100647', 'Test Acc: 0.8902000188827515', 'Train LL: -0.27972567081451416', 'Test LL: -0.3198796808719635', 'Epoch Time (s): 265.95141995185986')
+Traceback (most recent call last):
+  File "/user/home/em17331/letsgobacktothefirstexperiments/no_taylor_ablation/../resdkm20.py", line 231, in <module>
+    pred = model(X)
+           ^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/letsgobacktothefirstexperiments/dkm/dkm/kernels.py", line 185, in forward
+    Ki = self.kernels[i](G)
+         ^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/letsgobacktothefirstexperiments/dkm/dkm/layer.py", line 414, in forward
+    Gii, Gti, gt, computed_obj = t.utils.checkpoint.checkpoint(self._forward, *K, use_reentrant=False)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py", line 328, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/_dynamo/external_utils.py", line 17, in inner
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/utils/checkpoint.py", line 458, in checkpoint
+    ret = function(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/letsgobacktothefirstexperiments/dkm/dkm/layer.py", line 390, in _forward
+    assert (-1E-10 < gt_flat).all()
+AssertionError

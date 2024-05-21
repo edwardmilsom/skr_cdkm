@@ -1,0 +1,80 @@
+cpu-bind=MASK - bp1-gpu031, task  0  0 [117974]: mask 0x20000000000000002 set
+dataset: CIFAR10
+dtype: float32
+dof: 0.0
+init_lr: 0.01
+seed: 1
+bn_indnorm: global
+bn_tnorm: global
+bn_indscale: global
+bn_tscale: global
+final_layer: BFC
+likelihood: categorical
+n_ind_scale: 32
+Files already downloaded and verified
+Files already downloaded and verified
+x_ind shape: torch.Size([512, 3, 3, 3])
+Inducing inputs learned: True
+Model in CUDA: True
+('Epoch 0', 'Objective: -79653.96421994385', 'Train Acc: 0.2252199947834015', 'Test Acc: 0.23170000314712524', 'Train LL: -1.9572144746780396', 'Test LL: -1.9797354936599731', 'Epoch Time (s): 264.8638361180201')
+('Epoch 1', 'Objective: -7.2848056184768675', 'Train Acc: 0.3672400116920471', 'Test Acc: 0.482699990272522', 'Train LL: -1.6688567399978638', 'Test LL: -1.4062762260437012', 'Epoch Time (s): 264.8016402469948')
+('Epoch 2', 'Objective: -1.4291143674087525', 'Train Acc: 0.5159400105476379', 'Test Acc: 0.5630999803543091', 'Train LL: -1.3340060710906982', 'Test LL: -1.2160825729370117', 'Epoch Time (s): 264.85438617412')
+('Epoch 3', 'Objective: -1.2349443536758422', 'Train Acc: 0.5831400156021118', 'Test Acc: 0.6229000091552734', 'Train LL: -1.1632002592086792', 'Test LL: -1.0701396465301514', 'Epoch Time (s): 264.8861620621756')
+('Epoch 4', 'Objective: -1.0853304835891724', 'Train Acc: 0.6396200060844421', 'Test Acc: 0.6754000186920166', 'Train LL: -1.0174821615219116', 'Test LL: -0.9190407395362854', 'Epoch Time (s): 264.8446732312441')
+('Epoch 5', 'Objective: -0.9823566941070556', 'Train Acc: 0.6787599921226501', 'Test Acc: 0.6845999956130981', 'Train LL: -0.9197117686271667', 'Test LL: -0.8904004693031311', 'Epoch Time (s): 264.83784987591207')
+('Epoch 6', 'Objective: -0.9182691566467285', 'Train Acc: 0.703220009803772', 'Test Acc: 0.7339000105857849', 'Train LL: -0.8599351048469543', 'Test LL: -0.7743469476699829', 'Epoch Time (s): 264.84935911605135')
+('Epoch 7', 'Objective: -0.8466768756484986', 'Train Acc: 0.7254199981689453', 'Test Acc: 0.7408999800682068', 'Train LL: -0.7922429442405701', 'Test LL: -0.7447730898857117', 'Epoch Time (s): 264.8315181322396')
+('Epoch 8', 'Objective: -0.8007728184700013', 'Train Acc: 0.7403600215911865', 'Test Acc: 0.7300999760627747', 'Train LL: -0.7503592371940613', 'Test LL: -0.7717195153236389', 'Epoch Time (s): 264.78313450561836')
+('Epoch 9', 'Objective: -0.7758759448242187', 'Train Acc: 0.7481200098991394', 'Test Acc: 0.7663000226020813', 'Train LL: -0.7284371256828308', 'Test LL: -0.6716901659965515', 'Epoch Time (s): 264.81906944233924')
+('Epoch 10', 'Objective: -0.7332273812866211', 'Train Acc: 0.764240026473999', 'Test Acc: 0.7799000144004822', 'Train LL: -0.688815176486969', 'Test LL: -0.6488289833068848', 'Epoch Time (s): 264.7938164328225')
+('Epoch 11', 'Objective: -0.7126924690246582', 'Train Acc: 0.7694399952888489', 'Test Acc: 0.7843000292778015', 'Train LL: -0.6705537438392639', 'Test LL: -0.6431646347045898', 'Epoch Time (s): 264.8568835509941')
+('Epoch 12', 'Objective: -0.6850742620658874', 'Train Acc: 0.7799400091171265', 'Test Acc: 0.7872999906539917', 'Train LL: -0.6446220874786377', 'Test LL: -0.6228221654891968', 'Epoch Time (s): 264.83071492100134')
+('Epoch 13', 'Objective: -0.6697774215698242', 'Train Acc: 0.7843999862670898', 'Test Acc: 0.7882000207901001', 'Train LL: -0.6308965682983398', 'Test LL: -0.6283535361289978', 'Epoch Time (s): 264.83820381527767')
+('Epoch 14', 'Objective: -0.6498218663024903', 'Train Acc: 0.7898799777030945', 'Test Acc: 0.7979999780654907', 'Train LL: -0.612302839756012', 'Test LL: -0.5863460302352905', 'Epoch Time (s): 265.0895742941648')
+('Epoch 15', 'Objective: -0.6283767289924621', 'Train Acc: 0.797760009765625', 'Test Acc: 0.8004000186920166', 'Train LL: -0.5921849012374878', 'Test LL: -0.5814153552055359', 'Epoch Time (s): 264.6841451777145')
+('Epoch 16', 'Objective: -0.6100258875656128', 'Train Acc: 0.8039199709892273', 'Test Acc: 0.8104000091552734', 'Train LL: -0.5753108859062195', 'Test LL: -0.5699264407157898', 'Epoch Time (s): 264.65401339996606')
+('Epoch 17', 'Objective: -0.6065459170150757', 'Train Acc: 0.8046799898147583', 'Test Acc: 0.8126000165939331', 'Train LL: -0.5724742412567139', 'Test LL: -0.5506371855735779', 'Epoch Time (s): 264.61055557988584')
+('Epoch 18', 'Objective: -0.5859097475624084', 'Train Acc: 0.8094800114631653', 'Test Acc: 0.8059999942779541', 'Train LL: -0.5527087450027466', 'Test LL: -0.544448971748352', 'Epoch Time (s): 264.67408325197175')
+('Epoch 19', 'Objective: -0.5751048430061341', 'Train Acc: 0.8134999871253967', 'Test Acc: 0.8176000118255615', 'Train LL: -0.5425017476081848', 'Test LL: -0.5190557837486267', 'Epoch Time (s): 264.5148012419231')
+('Epoch 20', 'Objective: -0.5649904672431946', 'Train Acc: 0.817359983921051', 'Test Acc: 0.8321999907493591', 'Train LL: -0.5331865549087524', 'Test LL: -0.49447739124298096', 'Epoch Time (s): 264.57679290277883')
+('Epoch 21', 'Objective: -0.5562076891899109', 'Train Acc: 0.8204600214958191', 'Test Acc: 0.8406000137329102', 'Train LL: -0.5249999761581421', 'Test LL: -0.4649527966976166', 'Epoch Time (s): 264.5664971936494')
+('Epoch 22', 'Objective: -0.5414288510513305', 'Train Acc: 0.8242800235748291', 'Test Acc: 0.828000009059906', 'Train LL: -0.5105274319648743', 'Test LL: -0.5049082040786743', 'Epoch Time (s): 264.501117949374')
+('Epoch 23', 'Objective: -0.532413242855072', 'Train Acc: 0.8283799886703491', 'Test Acc: 0.8393999934196472', 'Train LL: -0.502160370349884', 'Test LL: -0.47939950227737427', 'Epoch Time (s): 264.57337423879653')
+('Epoch 24', 'Objective: -0.5251578290557861', 'Train Acc: 0.8303599953651428', 'Test Acc: 0.8343999981880188', 'Train LL: -0.49522873759269714', 'Test LL: -0.4923478960990906', 'Epoch Time (s): 264.5208786148578')
+Traceback (most recent call last):
+  File "/user/home/em17331/letsgobacktothefirstexperiments/no_dof_ablation/../resdkm20.py", line 231, in <module>
+    pred = model(X)
+           ^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/letsgobacktothefirstexperiments/dkm/dkm/layer.py", line 414, in forward
+    Gii, Gti, gt, computed_obj = t.utils.checkpoint.checkpoint(self._forward, *K, use_reentrant=False)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py", line 328, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/_dynamo/external_utils.py", line 17, in inner
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/anaconda3/envs/pytorch2/lib/python3.11/site-packages/torch/utils/checkpoint.py", line 458, in checkpoint
+    ret = function(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/em17331/letsgobacktothefirstexperiments/dkm/dkm/layer.py", line 390, in _forward
+    assert (-1E-10 < gt_flat).all()
+AssertionError
