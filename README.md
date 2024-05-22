@@ -13,3 +13,6 @@ The folder `dkm_most_experiments/` contains the code we used to run most the CIF
 The folder `dkm_no_skr_but_still_jitter_ablation/` is similar to `dkm_most_experiments/` but only contains a single ablation subfolder. This is because for this ablation we modified the library directly for convenience, and so running this ablation requires slightly different code to the other ablations.
 
 CIFAR-10 experiments that run for the full 1200 epochs will take about 4 days each on an NVIDIA A100 GPU.
+
+### Condition number sine dataset plots
+We include the code used to produce the plots displaying the condition number of the Gram matrix over time when using various settings in the `sine_dataset_condition_curves` folder. We also include the CSV files that contain the data used to make these plots.
