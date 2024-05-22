@@ -181,8 +181,8 @@ for i in range(len(ncol_divs)):
 
 
     # Define milestones and learning rates
-    milestones = [8000, 9500]  # Epochs where learning rate will change
-    gammas = [0.1, 0.1]  # Factors by which the learning rate will be multiplied
+    milestones = [10000000]  # Epochs where learning rate will change
+    gammas = [0.1]  # Factors by which the learning rate will be multiplied
     #gammas=[1,1]
     # Create the scheduler
     scheduler = MultiStepLR(opt, milestones=milestones, gamma=gammas[0])  # Assuming gamma is the same for each step for simplicity
