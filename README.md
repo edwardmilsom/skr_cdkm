@@ -1,5 +1,5 @@
 # Stochastic Kernel Regularisation Improves Generalisation in Deep Kernel Machines
-This repository contains code to reproduce the experiments in the paper "Stochastic Kernel Regularisation Improves Generalisation in Deep Kernel Machines".
+This repository contains code to reproduce the experiments in the paper "Stochastic Kernel Regularisation Improves Generalisation in Deep Kernel Machines" published at Neurips 2024.
 
 An `environment.yml` file is included to replicate our conda environment.
 
